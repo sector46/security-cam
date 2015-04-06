@@ -68,3 +68,5 @@ details about them by running the -h or --help flag.
 Once the 'security.conf' file is generated, you can run `./run_security.sh` to start the program.
 It only runs once at the moment, so once movement is detected, it will save the pictures/video, send out any 
 messages (if configured to do so), and then wait for the user to press 'q' to quit.
+
+If you want to remove pictures and/or video to free up space for more pictures/video, you will need to manually remove the "Group <Number>" folder inside the 'Pictures' and 'Video' folders.
