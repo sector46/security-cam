@@ -136,7 +136,7 @@ else
          read -p "Enter your carrier: " carrier
        fi
 
-       echo "brightness: 128" >> security.conf
+       echo "brightness: 178" >> security.conf
        echo "threshold: 60" >> security.conf
        if [ "$email_addr" == "" ] || [ "$password" == "" ]; then
          echo "receive_email: N" >> security.conf
