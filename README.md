@@ -59,10 +59,6 @@ python packages for a complete installation):
 
     opkg install python-pkgutil python-audio python-image python-email python-netserver python-xmlrpc python-distutils python-ctypes python-html python-json python-compile python-misc python-numbers python-unittest python-difflib opencv python-opencv
 
-If BASH is not already installed on your Edison, you will need to install it to run the scripts:
-
-    opkg install bash
-
 ## Getting Started
 
 To start with, you'll want to create a configuration file called 'security.conf' by running `./configure.sh`
@@ -71,5 +67,4 @@ details about them by running the -h or --help flag.
 
 Once the 'security.conf' file is generated, you can run `./run_security.sh` to start the program.
 It only runs once at the moment, so once movement is detected, it will save the pictures/video, send out any 
-messages (if configured to do so), and then exit.
-
+messages (if configured to do so), and then wait for the user to press 'q' to quit.
